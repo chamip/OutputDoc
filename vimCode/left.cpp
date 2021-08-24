@@ -9,6 +9,7 @@
 #include <iostream>
 #include <cstring>
 
+//Function overloading(Polymorphism)
 char* left(const char* str, int n = 1);
 unsigned long left(unsigned long num, unsigned count);
 // unsigned long left(unsigned long, unsigned);
@@ -35,7 +36,7 @@ int main()
     unsigned count = 3;
     unsigned long ans = left(num, count);
     cout << "ans: " << ans << endl;
-          
+
     return 0;
 }
 
