@@ -13,6 +13,8 @@ void testQuote();
 
 int main()
 {
+    using namespace std;
+    cout << "hello1111" << endl;
     testQuote();
     return 0;
 }
