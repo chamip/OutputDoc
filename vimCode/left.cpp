@@ -5,7 +5,6 @@
 * note:
 * Default parameters in function.
 */
-
 #include <iostream>
 #include <cstring>
 
