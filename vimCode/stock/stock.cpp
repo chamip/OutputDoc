@@ -1,3 +1,12 @@
+/*
+ * @Author: chamip
+ * @Date: 2021-09-03 15:42:52
+ * @LastEditTime: 2021-09-06 14:39:15
+ * @LastEditors: chamip
+ * @Description: 
+ * @FilePath: /OutputDoc/vimCode/stock/stock.cpp
+ * 可以输入预定的版权声明、个性签名、空行等
+ */
 #include <iostream>
 #include <string>
 #include "stock.h"
@@ -23,12 +32,19 @@ int main()
         stock1.update(10.0);
         stock1.show();
 
-        Stock stock2 = Stock("chamip", 1, 10.0);
-        stock2.show();
+        Stock stock2[2] = {
+            Stock("chamip", 1, 10.0),
+            Stock("wh", 33, 117.0)
+        };
+        stock2[0].show();
         stock1 = Stock("syr", 0606, 100.0);
         stock1.show();
-        stock2.show();
+        stock2[1].show();
         std::cout << "Done!" << std::endl;
+
+        const Stock * top = &stock2[0];
+        top = &top->topval(stock2[1]);
+        top->show();
     }
     return 0;
 }

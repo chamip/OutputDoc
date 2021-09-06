@@ -1,3 +1,12 @@
+/*
+ * @Author: chamip
+ * @Date: 2021-09-03 17:12:00
+ * @LastEditTime: 2021-09-06 10:48:56
+ * @LastEditors: chamip
+ * @Description: 
+ * @FilePath: /OutputDoc/vimCode/stock/stockImp.cpp
+ * 可以输入预定的版权声明、个性签名、空行等
+ */
 #include <iostream>
 #include <string>
 #include "stock.h"
@@ -58,8 +67,15 @@ void Stock::update(double shval) {
     set_total();
 }
 
-void Stock::show() {
+void Stock::show() const {
     std::cout << "Company: " << company << " Shares: " << shares << std:: endl;
     std::cout << "Share Price: $" << share_val << "Total Worth: $" << share_total << std::endl;
     std::cout << std::endl;
+}
+
+const Stock& Stock::topval(const Stock& s) const {
+    if(s.share_total > share_total) {
+        return s;
+    }
+    return *this;
 }
