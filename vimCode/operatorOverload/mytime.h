@@ -1,7 +1,7 @@
 /*
  * @Author: chamip
  * @Date: 2021-09-07 16:11:19
- * @LastEditTime: 2021-09-07 16:14:05
+ * @LastEditTime: 2021-09-07 17:31:28
  * @LastEditors: chamip
  * @Description: define time struct
  * @FilePath: /OutputDoc/vimCode/operatorOverload/mytime.h
@@ -19,6 +19,7 @@ public:
     Time();
     Time(int h, int m = 0);
     Time operator+(const Time& t) const;
+    void show();
     ~Time();
 };
 
