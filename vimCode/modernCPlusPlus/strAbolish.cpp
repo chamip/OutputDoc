@@ -1,10 +1,10 @@
 /*
  * @Author: chamip
  * @Date: 2021-09-07 10:27:24
- * @LastEditTime: 2021-09-07 11:43:57
+ * @LastEditTime: 2021-09-08 10:41:25
  * @LastEditors: chamip
  * @Description: 学习现代C++之前，了解从11开始被弃用的特性
- * @FilePath: /vimCode/modernCPlusPlus/strAbolish.cpp
+ * @FilePath: /OutputDoc/vimCode/modernCPlusPlus/strAbolish.cpp
  * 可以输入预定的版权声明、个性签名、空行等
  */
 
@@ -109,4 +109,6 @@ void consexpr() {
     std::cout << Fibonacci(10) << std::endl;
     return ;
 }
-/*----------------------------------------------------------*/
+/*-------------------------------------------------*/
+
+
