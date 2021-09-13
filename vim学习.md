@@ -1,8 +1,18 @@
+<!--
+ * @Author: chamip
+ * @Date: 2021-08-31 10:19:51
+ * @LastEditTime: 2021-09-13 16:14:58
+ * @LastEditors: chamip
+ * @Description: vim的学习笔记
+ * @FilePath: /OutputDoc/vim学习.md
+ * 可以输入预定的版权声明、个性签名、空行等
+-->
 ### vim学习
 
 ---
 
 3种模式：一般模式/编辑模式/命令行模式。
+4种模式：正常模式/插入模式/命令模式/可视模式
 
 编写c++代码的步骤：
 
