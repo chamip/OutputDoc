@@ -1,7 +1,7 @@
 /*
  * @Author: chamip
  * @Date: 2021-09-10 17:35:44
- * @LastEditTime: 2021-09-10 18:06:22
+ * @LastEditTime: 2021-09-13 11:14:50
  * @LastEditors: chamip
  * @Description: 
  * @FilePath: /OutputDoc/vimCode/deriveBase/tableTennis.h
@@ -19,7 +19,7 @@ private:
     std::string lastname;
     bool hasTable;
 public:
-    TableTennisPlayer();
+    // TableTennisPlayer();
     TableTennisPlayer(const std::string& fn = "hello", const std::string& ln = "world", bool ht = true);
     std::string getName();
     bool HasTable() const {
@@ -27,5 +27,17 @@ public:
     }
     ~TableTennisPlayer();
 };
+
+class RatedPlayer: public TableTennisPlayer {
+private:
+    unsigned int rating;
+public:
+    RatedPlayer(unsigned int r = 0, const std::string& fn = "none", const std::string& ln = "none", bool ht = false);
+    RatedPlayer(unsigned int r, const TableTennisPlayer& tp);
+    unsigned int Rating() const {
+        return rating;
+    }
+    ~RatedPlayer();
+} ;
 
 #endif
