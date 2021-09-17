@@ -29,12 +29,12 @@ private:
 public:
     /** Initialize your data structure here. */
 
-    
+
     MyLinkedList() {
         _virtualHeadNode = new LinkedNode(0);
         _size = 0;
     }
-    
+
     /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
     int get(int index) {
         if(index >= _size || index < 0){
@@ -46,7 +46,7 @@ public:
         }
         return cur->val;
     }
-    
+
     /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
     void addAtHead(int val) {
         LinkedNode* newNode = new LinkedNode(val);
@@ -54,7 +54,7 @@ public:
         _virtualHeadNode->next = newNode;
         _size++;
     }
-    
+
     /** Append a node of value val to the last element of the linked list. */
     void addAtTail(int val) {
         LinkedNode* newNode = new LinkedNode(val);
@@ -65,7 +65,7 @@ public:
         cur->next = newNode;
         _size++;
     }
-    
+
     /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
     void addAtIndex(int index, int val) {
         if(index > _size){
@@ -80,7 +80,7 @@ public:
         cur->next = newNode;
         _size++;
     }
-    
+
     /** Delete the index-th node in the linked list, if the index is valid. */
     void deleteAtIndex(int index) {
         if(index >= _size || index < 0){
