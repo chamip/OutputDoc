@@ -44,7 +44,7 @@ Magic_foo::Magic_foo(std::initializer_list<int> list) {
 std::ostream& operator<<(std::ostream& os, const Magic_foo& m) {
     for(int i = 0; i < m.vec.size(); i++) {
         os << "vec["<< i << "] = " << m.vec[i];
-        os << std::endl; 
+        os << std::endl;
     }
     return os;
 }

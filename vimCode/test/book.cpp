@@ -44,4 +44,3 @@ void PrintBook(Books book) {
     std::cout << "book_id: " << book.book_id << std::endl;
     return ;
 }
-
