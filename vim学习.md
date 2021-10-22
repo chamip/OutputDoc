@@ -1,7 +1,7 @@
 <!--
  * @Author: chamip
  * @Date: 2021-08-31 10:19:51
- * @LastEditTime: 2021-09-16 10:09:53
+ * @LastEditTime: 2021-10-20 00:00:14
  * @LastEditors: chamip
  * @Description: vim的学习笔记
  * @FilePath: /OutputDoc/vim学习.md
@@ -20,7 +20,5 @@
 2. gcc hello.cpp(->a.out)
 3. ./a.out
 
-/*
-* clang++编译指令：
-* clang++ strAbolish.cpp -std=c++2a -o strAbolish
-*/
+clang++编译指令：
+`clang++ strAbolish.cpp -std=c++2a -o strAbolish`
