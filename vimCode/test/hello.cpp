@@ -14,6 +14,6 @@ int main()
 	printf("Julia");
 	Test test("Julia", 18);
 	test.show();
-	printf("hello");
+	//printf("hello");
 	return 0;
 }
