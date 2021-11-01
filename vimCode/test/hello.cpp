@@ -13,6 +13,6 @@ int main()
 	// }
 	Test test("Julia", 18);
 	test.show();
-	printf("hello");
+	//printf("hello");
 	return 0;
 }
