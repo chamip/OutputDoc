@@ -11,7 +11,11 @@ int main()
 	// 		std::cout << std::endl;
 	// 	}
 	// }
+<<<<<<< HEAD
 	printf("Julia!");
+=======
+	printf("Julia!!!");
+>>>>>>> 7605cb06f3286b3d5878546d42119e3681772e82
 	Test test("Julia", 18);
 	test.show();
 	//printf("hello");
