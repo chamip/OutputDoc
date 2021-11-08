@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chamip/github/OutputDoc/vimCode/OpenGL/examGlfw.cpp
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+
+/home/chamip/github/OutputDoc/vimCode/OpenGL/test.cpp
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+

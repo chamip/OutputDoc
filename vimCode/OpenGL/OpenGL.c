@@ -1,3 +1,20 @@
+
+/**
+ * @file OpenGL.c
+ * @author chamip (chamip@yeah.net)
+ * @brief 
+ * @version 0.1
+ * @date 2021-11-03
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
+/*
+* g++ OpenGL.c -o OpenGL -lglut -lGLU -lGL
+* g++ OpenGL.c -std=c++17 -lglut -lGLU -lGL -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi -o OpenGL
+*/
+
 #include <GL/glut.h>
 #include <math.h>
 

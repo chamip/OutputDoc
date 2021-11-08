@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/OpenGL.dir/examGlfw.cpp.o CMakeFiles/OpenGL.dir/glad.c.o CMakeFiles/OpenGL.dir/OpenGL.c.o CMakeFiles/OpenGL.dir/OpenGLLight.c.o CMakeFiles/OpenGL.dir/OpenGLPlanet.c.o CMakeFiles/OpenGL.dir/OpenGLsin.c.o CMakeFiles/OpenGL.dir/test.cpp.o -o OpenGL 

@@ -1,0 +1,3 @@
+/home/chamip/github/OutputDoc/vimCode/OpenGL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/chamip/github/OutputDoc/vimCode/OpenGL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/chamip/github/OutputDoc/vimCode/OpenGL/cmake-build-debug/CMakeFiles/OpenGL.dir

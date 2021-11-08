@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OutputDoc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chamip/github/OutputDoc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chamip/github/OutputDoc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chamip/github/OutputDoc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OutputDoc">
+				<Option output="/home/chamip/github/OutputDoc/cmake-build-debug/OutputDoc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chamip/github/OutputDoc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/deriveBase"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/operatorOverload"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/stock"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/String"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/tempOverload"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 OutputDoc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OutputDoc/fast">
+				<Option output="/home/chamip/github/OutputDoc/cmake-build-debug/OutputDoc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chamip/github/OutputDoc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/deriveBase"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/operatorOverload"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/stock"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/String"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/tempOverload"/>
+					<Add directory="/home/chamip/github/OutputDoc/vimCode/test"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 OutputDoc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/chamip/github/OutputDoc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/OpenGL.c">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/OpenGLLight.c">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/OpenGLPlanet.c">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/OpenGLsin.c">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/examGlfw.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/glad.c">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/OpenGL/test.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/String/string1.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/String/string1.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/String/useString.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/dataStructure/designLinkedList.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/dataStructure/reverseLinkedList.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/deriveBase/deriveBase.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/deriveBase/tableTennis.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/deriveBase/tableTennis.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/leetcode/midNum_lc.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/leetcode/subsets_lc.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/inltializer.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/iteratorT.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/smartPointer.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/strAbolish.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/stringChar.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/modernCPlusPlus/trailAuto.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/operatorOverload/mytime.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/operatorOverload/mytime.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/operatorOverload/usetime.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/stock/stock.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/stock/stock.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/stock/stockImp.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/tempOverload/Swap.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/tempOverload/tempSwap.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/book.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/capacity.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/charxx.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/constCast.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/defineE.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/delRe.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/forkPrint.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/funcPointer.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/hello.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/hello.h">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/isCube.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/left.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/lyzVec.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/multiDerive.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/play.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/quote.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/staticVariable.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/stdString.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/vectorCmp.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/vimCode/test/yuv.cpp">
+			<Option target="OutputDoc"/>
+		</Unit>
+		<Unit filename="/home/chamip/github/OutputDoc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
