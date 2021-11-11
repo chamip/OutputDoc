@@ -3,29 +3,27 @@
 
 using namespace std;
 
-int searchInsert(vector<int>& nums, int target) {
-        int left = 0;
-        int right = nums.size() - 1;
-        int mid = 0;
-        while (left <= right)
-        {
-            mid = left + ((right - left) >> 1);
-            if(nums[mid] == target) {
-                return mid;
-            }else if(nums[mid] < target) {
-                left = mid + 1;
-            }else {
-                right = mid - 1;
-            }
+bool isPerfectSquare(int num) {
+    int left = 1;
+    int right = num;
+    int mid = 0;
+    while(left <= right) {
+        mid = left + ((right - left) >> 1);
+        if((mid == num / mid) && (num % mid == 0)) {
+            return true;
+        }else if(mid > num / mid) {
+            right = mid - 1;
+        }else {
+            left = mid + 1;
         }
-        return left;
+    }   
+    return false;
 }
 
 int main()
 {
-    vector<int> nums = {1, 3, 5, 6};
-    int target = 0;
-    int ans = searchInsert(nums, target);
+
+    bool ans = isPerfectSquare(5);
     cout << ans << endl;
     return 0;
 }
