@@ -1,3 +1,0 @@
-/home/chamip/github/OutputDoc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/chamip/github/OutputDoc/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/chamip/github/OutputDoc/cmake-build-debug/CMakeFiles/OutputDoc.dir
