@@ -1,29 +1,32 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
-bool isPerfectSquare(int num) {
-    int left = 1;
-    int right = num;
-    int mid = 0;
-    while(left <= right) {
-        mid = left + ((right - left) >> 1);
-        if((mid == num / mid) && (num % mid == 0)) {
-            return true;
-        }else if(mid > num / mid) {
-            right = mid - 1;
-        }else {
-            left = mid + 1;
+int lengthOfLIS(vector<int>& nums) {
+    int n = nums.size();
+    if(n == 0) {
+        return 0;
+    }
+    vector<int> dp(n ,0);
+    for(int i = 0; i < n; i++) {
+        dp[i] = 1;
+        for(int j = 0; j < i; j++) {
+            if(nums[j] < nums[i]) {
+                //dp[i] = dp[j] + 1;
+                dp[i] = max(dp[j] + 1, dp[i]);
+            }
         }
-    }   
-    return false;
+    }
+    sort(dp.begin(), dp.end());
+    return dp[dp.size() - 1];
 }
 
 int main()
 {
-
-    bool ans = isPerfectSquare(5);
+    vector<int> vec = {0,1,0,3,2,3};
+    int ans = lengthOfLIS(vec);
     cout << ans << endl;
     return 0;
 }
