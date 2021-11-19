@@ -25,5 +25,9 @@ int main()
     double j = 11.1;
     char c = 'a';
     print(str, i, j, c);
+    // int* p = nullptr;
+    int* p {};
+    std::cout << p << std::endl;
+    // std::cout << typeid(p).name() << std::endl;
     return 0;
 }
