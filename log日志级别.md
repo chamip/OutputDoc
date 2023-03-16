@@ -1,0 +1,13 @@
+5个级别，从低到高：
+`DEBUG`
+`INFO`
+`WARNING`
+`ERROR`
+`CRITICAL`
+说明：
+`DEBUG`：详细的信息，通常只出现在问题的诊断上；
+`INFO`：确认一切按预期进行
+`WARNING`：迹象表明，一些意想不到的事情发生了，或表明在不久的将来（如：磁盘空间低），软件还能按预期进行。
+`ERROR`：更严重的问题，软件没能执行一些功能。
+`CRITICAL`:一个严重的错误，表明程序本身可能无法继续进行。
+这5个等级，分别对应5种打日志的方法:`debug`、`info`、`warning`、`error`、`critical`。默认是`warning`，在`warning`或之上时才能跟踪。
