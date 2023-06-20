@@ -22,4 +22,9 @@
 ​	`ssh -T git@github.com`
 
 
+#### 常用操作
+-- 查看每一次的提交记录
+`git reflog`
+包括reset回退到某版本之后，该版本之后的提交信息，常用于回滚到最新版本。
+`git reset --hard （最新版本的commit id）`
 
